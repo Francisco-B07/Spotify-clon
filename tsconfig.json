@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "C:/Users/Lenovo/Desktop/dev/Proyectos Portfolio/spotify-clon",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@/components": [
+        "src/components/*"
+      ],
+      "@/icons": [
+        "src/icons/*"
+      ],
+      "@/lib": [
+        "src/lib/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "extends": "astro/tsconfigs/strict"
+}
